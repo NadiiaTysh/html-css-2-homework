@@ -1,0 +1,53 @@
+.header {
+    padding-left: 120px;
+    display: flex;
+}
+
+.header__container {
+    padding: 193px 0 100px;
+}
+
+.header__title {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 84px;
+    letter-spacing: -0.5px;
+}
+
+.header__text {
+    font-size: 24px;
+    line-height: 36px;
+    width: 486px;
+}
+
+.header__btn {
+    height: 48px;
+    width: 180px;
+    background: #3B00DD;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.87);
+    position: relative;
+}
+
+.header__btn::after {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: 14px;
+    background-image: url("../images/SVG/arrow.svg");
+}
+
+.header__img {
+    display: block;
+    margin-left: 37px;
+    z-index: -2;
+}
