@@ -1,0 +1,53 @@
+.smart-studio {
+    margin: 0 auto;
+    padding: 120px 120px 40px 120px;
+    display: flex;
+    background: #F5F5F5
+}
+
+.smart-studio__inner + .smart-studio__inner {
+    margin-left: 24px;
+}
+
+.smart-studio__line-decor {
+    width: 78px;
+    height: 4px;
+    background-color: #3B00DD;
+}
+
+.smart-studio__decor-left {
+    margin: 0 0 63px 0; 
+}
+
+.smart-studio__decor-right {
+    margin: 0 0 63px 510px; 
+}
+
+.smart-studio__wrap-text {
+    margin: 0px 102px 263px 102px;
+}
+
+
+.smart-studio__wrap-image {
+    width: 588px;
+    height: 441px;
+    margin-bottom: 80px;
+}
+
+.smart-studio__inner-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+.smart-studio__inner-desc {
+    width: 385px;
+    height: 229px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}

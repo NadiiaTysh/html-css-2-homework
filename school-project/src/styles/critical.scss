@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn {
+    height: 48px;
+    width: 180px;
+    background: #3B00DD;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.87);
+    position: relative;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: 14px;
+    background-image: url("../images/SVG/arrow.svg");
+}
