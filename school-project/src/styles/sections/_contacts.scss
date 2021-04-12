@@ -1,0 +1,145 @@
+.contacts {
+    margin: 0 auto;
+}
+
+.contacts__title {
+    margin: 107px auto 68px;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 69px;
+    text-align: center;
+}
+
+.contacts__wrapper {
+    width: 1200px;
+    height: 492px;
+    display: flex;
+    margin: 0 auto 145px;
+    justify-content: space-between;
+}
+
+.contact__form-wrapper {
+    width: 50%;
+    height: 100%;
+    padding: 48px 98px 40px 102px;
+}
+
+.contacts__map {
+    margin-left: 24px;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 10px 25px rgb(138, 138, 138);
+}
+
+.contacts__form-title {
+    display: inline;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+
+.contacts__form-img {
+    width: 20px;
+    height: 16px;
+}
+
+.contacts__mailto {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.contacts__form {
+    margin: 41px 0 0;
+}
+
+.contacts__input-wrapper {
+    height: 84px;
+    width: 384px;
+}
+
+.contacts__form-label {
+    display: block;
+    background-color: #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: fit-content;
+    margin-top: -68px;
+    margin-left: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.contacts__form-input {
+    display: block;
+    height: 56px;
+    width: 384px;
+    z-index: 0;
+    border: 1px solid rgba(25, 25, 25, 0.32);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.contacts__form-submit {
+    display: block;
+    margin-top: 33px;
+    margin-left: auto;
+    height: 48px;
+    width: 180px;
+    background: #3B00DD;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contacts__map-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__map-content {
+    display: flex;
+    margin: 41px 56px 37px 25px;
+    width: 221px;
+    height: 83px;
+}
+
+.contacts__map-logo {
+    display: inline-block;
+    height: 20px;
+}
+
+.contacts__desc {
+    width: 200px;
+    height: fit-content;
+    margin-left: 24px;
+}
+
+.contacts__map-title {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.contacts__map-desc {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,107 @@
+@import '../critical.scss';
+
+.costs {
+    margin: 0 auto;
+    height: 812px;
+    background-image: url('../images/JPG/images_optimize/service_costs.jpg');
+    position: relative;
+    z-index: -2;
+}
+
+.costs__shade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.costs__info {
+    padding-top: 122px;
+    padding-left: 120px;
+
+}
+
+.costs__info-title {
+    margin-bottom: 19px;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 84px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.costs__info-desc {
+    margin-bottom: 44px;
+    width: 415px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+
+.costs__service {
+    padding: 61px 9px 44px 100px;
+    position: absolute;
+    width: 688px;
+    height: 405px;
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 632px;
+}
+
+.costs__service-title {
+    margin: 0 auto 40px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cost__service-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat (2, 100px);
+    column-gap: 24px;
+    row-gap: 40px;
+}
+
+.cost__box {
+    margin: 0;
+}
+
+.cost__box-title {
+    margin: 0 auto 14px 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+
+.cost__box-desc {
+    margin: 0 auto 8px 0;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.cost__wrapper {
+    background-color: #0000A0;
+    width: 180px;
+    height: 159px;
+    padding: 37px;
+    position: absolute;
+    top: 320px;
+    left: 1140px;
+}
+
+.cost__value {
+    margin: 0;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}

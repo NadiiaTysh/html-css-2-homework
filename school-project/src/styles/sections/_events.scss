@@ -1,0 +1,92 @@
+.events {
+    margin: 0 auto;
+    padding: 160px 120px;
+    /* position: relative; */
+    background-color: #F5F5F5;
+}
+
+.events__inner {
+    position: relative;
+    height: 641px;
+}
+
+.events__img {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 894px;
+    height: 504px;
+}
+
+.events__number {
+    position: absolute;
+    top: 0;
+    left: 894px;
+}
+
+.events__number-inner {
+    margin-left: 24px;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.events__info {
+    background: #03DAC4;
+    position: absolute;
+    left: 510px;
+    bottom: 0;
+    padding: 70px 102px 90px;
+    width: 690px;
+    height: 320px;
+}
+
+.events__title {
+    margin: 0 auto 34px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+
+.events__desc {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.events__btn {
+    position: absolute;
+    top: 504px;
+    left: 306px;
+    display: block;
+    width: 204px;
+    height: 97px;
+    background: #0036CA;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 3px;
+}
+
+.events__next {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    position: absolute;
+    top: 43%;
+    left: 27%;
+}
+
+.events__next::after {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-image: url("../images/SVG/arrow.svg");
+    margin-left: 7px;
+    margin-top: -5px;
+}

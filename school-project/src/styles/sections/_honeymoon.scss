@@ -1,0 +1,66 @@
+.honeymoon {
+    padding: 120px 98px 120px 121px;
+}
+
+.honeymoon__title-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.honeymoon__title {
+    margin: 0 auto 5px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #03DAC4;
+}
+
+.honeymoon__subtitle {
+    margin: 0 auto 41px;
+    width: 587px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.honeymoon__appartments-video {
+    display: grid;
+    grid-template-columns: 588px 1fr;
+    column-gap: 24px;
+}
+
+.honeymoon__video-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 67px 0 63px;
+    column-gap: 24px;
+    row-gap: 80px;
+}
+
+.honeymoon__video-inner {
+    width: 588px;
+}
+
+.honeymoon__icon {
+    display: inline;
+    margin-right: 16px;
+    height: 20px;
+}
+
+.honeymoon__info-title {
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+
+.honeymoon__info-desc {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.6);
+}
