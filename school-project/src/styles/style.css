@@ -847,3 +847,83 @@ button {
   height: 20px;
   background: url("../images/SVG/telegram.svg");
   border: none; }
+
+[class*="svg-"] {
+  font-size: 20px;
+  position: relative;
+  display: inline-flex;
+  height: 1em; }
+  [class*="svg-"]:before {
+    content: '';
+    display: block; }
+  [class*="svg-"] svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.svg-icons-arrow {
+  width: 1.2em; }
+  .svg-icons-arrow:before {
+    padding-bottom: 100%; }
+
+.svg-icons-arrow-dark {
+  width: 1.25em; }
+  .svg-icons-arrow-dark:before {
+    padding-bottom: 96%; }
+
+.svg-icons-bath {
+  width: 0.95em; }
+  .svg-icons-bath:before {
+    padding-bottom: 105.26316%; }
+
+.svg-icons-bedroom {
+  width: 1em; }
+  .svg-icons-bedroom:before {
+    padding-bottom: 95%; }
+
+.svg-icons-geo {
+  width: 0.7em; }
+  .svg-icons-geo:before {
+    padding-bottom: 142.85714%; }
+
+.svg-icons-kitchen {
+  width: 1.05em; }
+  .svg-icons-kitchen:before {
+    padding-bottom: 95.2381%; }
+
+.svg-icons-mail {
+  width: 1em; }
+  .svg-icons-mail:before {
+    padding-bottom: 80%; }
+
+.svg-icons-phone {
+  width: 0.9em; }
+  .svg-icons-phone:before {
+    padding-bottom: 100%; }
+
+.svg-icons-tech_room {
+  width: 0.95em; }
+  .svg-icons-tech_room:before {
+    padding-bottom: 105.26316%; }
+
+.svg-icons-telegram {
+  width: 1em; }
+  .svg-icons-telegram:before {
+    padding-bottom: 100%; }
+
+.svg-socials-facebook {
+  width: 0.9em; }
+  .svg-socials-facebook:before {
+    padding-bottom: 100%; }
+
+.svg-socials-instagram {
+  width: 0.9em; }
+  .svg-socials-instagram:before {
+    padding-bottom: 100%; }
+
+.svg-socials-twitter {
+  width: 0.9em; }
+  .svg-socials-twitter:before {
+    padding-bottom: 100%; }

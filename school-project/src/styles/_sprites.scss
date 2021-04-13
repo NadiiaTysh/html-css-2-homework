@@ -1,4 +1,6 @@
 [class*="svg-"] { font-size: 20px; position: relative;
+	display: inline-flex;
+	height: 1em;
 
 	&:before { content: ''; display: block; }
 
