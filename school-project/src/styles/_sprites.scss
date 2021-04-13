@@ -1,0 +1,86 @@
+[class*="svg-"] { font-size: 20px; position: relative;
+
+	&:before { content: ''; display: block; }
+
+	svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+
+}
+
+.svg-icons-arrow { width: (24/20 * 1em);
+
+	&:before { padding-bottom: 24 / 24 * 100%; }
+
+}
+
+.svg-icons-arrow-dark { width: (25/20 * 1em);
+
+	&:before { padding-bottom: 24 / 25 * 100%; }
+
+}
+
+.svg-icons-bath { width: (19/20 * 1em);
+
+	&:before { padding-bottom: 20 / 19 * 100%; }
+
+}
+
+.svg-icons-bedroom { width: (20/20 * 1em);
+
+	&:before { padding-bottom: 19 / 20 * 100%; }
+
+}
+
+.svg-icons-geo { width: (14/20 * 1em);
+
+	&:before { padding-bottom: 20 / 14 * 100%; }
+
+}
+
+.svg-icons-kitchen { width: (21/20 * 1em);
+
+	&:before { padding-bottom: 20 / 21 * 100%; }
+
+}
+
+.svg-icons-mail { width: (20/20 * 1em);
+
+	&:before { padding-bottom: 16 / 20 * 100%; }
+
+}
+
+.svg-icons-phone { width: (18/20 * 1em);
+
+	&:before { padding-bottom: 18 / 18 * 100%; }
+
+}
+
+.svg-icons-tech_room { width: (19/20 * 1em);
+
+	&:before { padding-bottom: 20 / 19 * 100%; }
+
+}
+
+.svg-icons-telegram { width: (20/20 * 1em);
+
+	&:before { padding-bottom: 20 / 20 * 100%; }
+
+}
+
+.svg-socials-facebook { width: (18/20 * 1em);
+
+	&:before { padding-bottom: 18 / 18 * 100%; }
+
+}
+
+.svg-socials-instagram { width: (18/20 * 1em);
+
+	&:before { padding-bottom: 18 / 18 * 100%; }
+
+}
+
+.svg-socials-twitter { width: (18/20 * 1em);
+
+	&:before { padding-bottom: 18 / 18 * 100%; }
+
+}
+
