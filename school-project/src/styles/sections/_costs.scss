@@ -1,11 +1,9 @@
-@import '../critical.scss';
-
 .costs {
     margin: 0 auto;
     height: 812px;
     background-image: url('../images/JPG/images_optimize/service_costs.jpg');
     position: relative;
-    z-index: -2;
+    opacity: 0.9;
 }
 
 .costs__shade {
@@ -17,27 +15,28 @@
 }
 
 .costs__info {
-    padding-top: 122px;
+    padding-top: 112px;
     padding-left: 120px;
 
 }
 
 .costs__info-title {
-    margin-bottom: 19px;
+    margin: 0 auto 30px;
     font-weight: 800;
     font-size: 56px;
+    font-family: 'Comfortaa';
     line-height: 84px;
     letter-spacing: -0.5px;
     color: #FFFFFF;
 }
 
 .costs__info-desc {
-    margin-bottom: 44px;
+    margin: 0 auto 36px 0;
     width: 415px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.25px;
+    line-height: 33px;
+    letter-spacing: 0.55px;
     color: #FFFFFF;
 }
 
@@ -62,7 +61,7 @@
 .cost__service-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 180px);
-    grid-template-rows: repeat (2, 100px);
+    grid-template-rows: repeat(2, 100px);
     column-gap: 24px;
     row-gap: 40px;
 }
@@ -72,7 +71,8 @@
 }
 
 .cost__box-title {
-    margin: 0 auto 14px 0;
+    margin: -3px auto 17px 0;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;

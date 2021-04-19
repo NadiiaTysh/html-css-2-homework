@@ -4,7 +4,7 @@
 }
 
 .footer__inner {
-    padding: 100px 120px 97px;
+    padding: 100px 120px 56px;
 }
 
 .footer__top {
@@ -14,19 +14,20 @@
 .footer__first-column {
     height: 242px;
     width: 384px;
-    margin-right: 330px;
+    margin: 19px 330px 0 0;
 }
 
 .footer__logo {
-    margin-bottom: 36px;
-    height: 24px;
+    margin-bottom: 30px;
+    height: 26px;
 }
 
 .footer__first-desc {
+    margin: 0 auto 0 0;
     font-weight: 500;
     font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.25px;
+    line-height: 33px;
+    letter-spacing: 0.65px;
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -42,7 +43,7 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
-.footer__ext-title {
+.footer__next-title {
     margin: 0 auto 32px 0;
     font-weight: bold;
     font-size: 16px;
@@ -73,7 +74,7 @@
 }
 
 .footer__copyright {
-    margin: 23px 268px auto 0;
+    margin: 15px 321px auto 0;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.15px;
@@ -85,15 +86,15 @@
 }
 
 .footer__subscr {
-    margin-right: 18px;
-    font-weight: 500;
+    margin: 14px 24px 0 0;
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    letter-spacing: 0.25px;
+    letter-spacing: -0.4px;
 }
 
 .footer__form {
-    margin-top: 6px;
+    margin-top: 3px;
 }
 
 .footer__label {

@@ -1,6 +1,6 @@
 .smart-studio {
     margin: 0 auto;
-    padding: 120px 120px 40px 120px;
+    padding: 120px 120px 0px 120px;
     display: flex;
     background: #F5F5F5
 }
@@ -11,12 +11,12 @@
 
 .smart-studio__line-decor {
     width: 78px;
-    height: 4px;
+    height: 5px;
     background-color: #3B00DD;
 }
 
 .smart-studio__decor-left {
-    margin: 0 0 63px 0; 
+    margin: 20px 0 63px 0; 
 }
 
 .smart-studio__decor-right {
@@ -24,30 +24,46 @@
 }
 
 .smart-studio__wrap-text {
-    margin: 0px 102px 263px 102px;
+    margin: 0px 102px 70px 102px;
 }
 
 
 .smart-studio__wrap-image {
     width: 588px;
     height: 441px;
-    margin-bottom: 80px;
+    margin-bottom: 67px;
 }
 
 .smart-studio__inner-title {
+    margin: 0;
+    padding: 0 0 47px 0;
     font-weight: 800;
     font-size: 32px;
+    font-family: 'Comfortaa';
     line-height: 48px;
     letter-spacing: 0.25px;
     text-transform: uppercase;
 }
 
+.smart-studio__inner:nth-child(2) .smart-studio__inner-title {
+    margin-top: -5px;
+}
+
+.smart-studio__inner:nth-child(2) .smart-studio__wrap-text {
+    margin-bottom: 244px;
+}
+
+.smart-studio__inner:nth-child(2) .smart-studio__wrap-image {
+    margin-bottom: 0;
+}
+
 .smart-studio__inner-desc {
+    margin: 0;
     width: 385px;
-    height: 229px;
+    height: 248px;
     color: rgba(0, 0, 0, 0.6);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.25px;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 1.25px;
 }

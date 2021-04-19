@@ -1,15 +1,16 @@
 .rooms {
     margin: 0 auto;
-    padding: 67px 120px 127px;
+    padding: 60px 120px 127px;
     background-color: #F5F5F5;
 }
 
 .rooms__title {
     text-align: start;
     margin-top: 0;
-    margin-bottom: 64px;
+    margin-bottom: 70px;
     font-weight: 800;
     font-size: 32px;
+    font-family: 'Comfortaa';
     line-height: 48px;
     letter-spacing: 0.25px;
 }
@@ -27,6 +28,7 @@
     position: relative;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-bottom: 22px;
 }
 
 .rooms__img {
@@ -44,21 +46,25 @@
     position: absolute;
 }
 
+.rooms__number-inner {
+    font-size: 18px;
+}
+
 .rooms__item-title {
     font-size: 24px;
+    font-family: 'Comfortaa';
     line-height: 36px;
-    margin-top: 24px;
-    margin-bottom: 12px;
+    margin: 0 auto 15px;
     text-align: start;
 }
 
 .rooms__descr {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.15px;
+    line-height: 27px;
+    letter-spacing: 0.3px;
     height: 76px;
     width: 384px;
-    margin-bottom: 56px;
+    margin: 0 auto 56px;
     color: rgba(0, 0, 0, 0.6);
 }
 .rooms__btn {
@@ -72,7 +78,7 @@
     font-size: 12px;
     line-height: 16px;
     text-align: center;
-    letter-spacing: 1.25px;
+    letter-spacing: 1.1px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);

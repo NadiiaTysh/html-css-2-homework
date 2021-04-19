@@ -19,6 +19,7 @@ button {
   cursor: pointer; }
 
 .btn {
+  padding-left: 0px;
   height: 48px;
   width: 180px;
   background: #3B00DD;
@@ -28,7 +29,7 @@ button {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  letter-spacing: 1.25px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.87);
   position: relative; }
@@ -45,38 +46,50 @@ button {
   margin: 0 auto;
   padding: 0;
   background: #FAFAFA;
-  box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2), 0px 3px 3px rgba(0, 0, 0, 0.3); }
 
 .menu__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px; }
+  height: 120px;
+  padding-top: 10px; }
 
 .menu__logo {
   margin: 0 0 0 48px; }
 
 .menu__list {
   display: flex;
-  margin-right: auto; }
+  margin: 0 auto 8px 0; }
 
-.menu__list-item + .menu__list-item {
+.menu__list-item:nth-child(1) {
   margin-left: 24px; }
+
+.menu__list-item:nth-child(2) {
+  margin-left: 36px; }
+
+.menu__list-item:nth-child(3) {
+  margin-left: 48px; }
+
+.menu__list-item:nth-child(4) {
+  margin-left: 60px; }
 
 .menu__list-link {
   color: rgba(0, 0, 0, 0.87);
   font-size: 16px;
+  font-family: 'Comfortaa';
   line-height: 24px;
   text-decoration: none; }
 
 .menu__socials {
-  margin-right: 120px; }
+  margin-right: 120px;
+  margin-bottom: 15px; }
 
 .socials__link {
   text-decoration: none; }
 
 .socials__link + .socials__link {
-  margin-left: 22px; }
+  margin-left: 17px; }
 
 .socials__link--grey {
   opacity: 0.4; }
@@ -89,25 +102,29 @@ button {
   padding: 193px 0 100px; }
 
 .header__title {
+  margin: 0;
   color: rgba(0, 0, 0, 0.6);
+  font-family: 'Comfortaa';
   font-weight: 800;
   font-size: 56px;
-  line-height: 84px;
+  line-height: 62px;
   letter-spacing: -0.5px; }
 
 .header__text {
-  font-size: 24px;
-  line-height: 36px;
-  width: 486px; }
+  margin: 20px auto 105px 0;
+  font-size: 25px;
+  line-height: 29px;
+  width: 490px; }
 
 .header__btn {
+  padding-right: 37px;
   height: 48px;
   width: 180px;
   background: #3B00DD;
   border: none;
   border-radius: 3px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 16px;
   text-align: center;
   letter-spacing: 1.25px;
@@ -130,7 +147,7 @@ button {
 
 .smart-studio {
   margin: 0 auto;
-  padding: 120px 120px 40px 120px;
+  padding: 120px 120px 0px 120px;
   display: flex;
   background: #F5F5F5; }
 
@@ -139,61 +156,77 @@ button {
 
 .smart-studio__line-decor {
   width: 78px;
-  height: 4px;
+  height: 5px;
   background-color: #3B00DD; }
 
 .smart-studio__decor-left {
-  margin: 0 0 63px 0; }
+  margin: 20px 0 63px 0; }
 
 .smart-studio__decor-right {
   margin: 0 0 63px 510px; }
 
 .smart-studio__wrap-text {
-  margin: 0px 102px 263px 102px; }
+  margin: 0px 102px 70px 102px; }
 
 .smart-studio__wrap-image {
   width: 588px;
   height: 441px;
-  margin-bottom: 80px; }
+  margin-bottom: 67px; }
 
 .smart-studio__inner-title {
+  margin: 0;
+  padding: 0 0 47px 0;
   font-weight: 800;
   font-size: 32px;
+  font-family: 'Comfortaa';
   line-height: 48px;
   letter-spacing: 0.25px;
   text-transform: uppercase; }
 
+.smart-studio__inner:nth-child(2) .smart-studio__inner-title {
+  margin-top: -5px; }
+
+.smart-studio__inner:nth-child(2) .smart-studio__wrap-text {
+  margin-bottom: 244px; }
+
+.smart-studio__inner:nth-child(2) .smart-studio__wrap-image {
+  margin-bottom: 0; }
+
 .smart-studio__inner-desc {
+  margin: 0;
   width: 385px;
-  height: 229px;
+  height: 248px;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.25px; }
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 1.25px; }
 
 .honeymoon {
-  padding: 120px 98px 120px 121px; }
+  padding: 103px 100px 120px 118px; }
 
 .honeymoon__title-wrapper {
+  margin: 0 27px 0 0;
   display: flex;
   flex-direction: column; }
 
 .honeymoon__title {
-  margin: 0 auto 5px;
+  margin: 0 auto;
   font-weight: 800;
   font-size: 20px;
-  line-height: 30px;
+  font-family: 'Comfortaa';
+  line-height: 39px;
   text-align: center;
   letter-spacing: 0.25px;
   color: #03DAC4; }
 
 .honeymoon__subtitle {
-  margin: 0 auto 41px;
+  margin: 6px auto 62px;
   width: 587px;
   font-weight: 800;
   font-size: 32px;
-  line-height: 48px;
+  font-family: 'Comfortaa';
+  line-height: 36px;
   text-align: center; }
 
 .honeymoon__appartments-video {
@@ -204,9 +237,9 @@ button {
 .honeymoon__video-desc {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 67px 0 63px;
-  column-gap: 24px;
-  row-gap: 80px; }
+  padding: 66px 0 45px;
+  column-gap: 1px;
+  row-gap: 58px; }
 
 .honeymoon__video-inner {
   width: 588px; }
@@ -220,8 +253,10 @@ button {
   display: inline;
   font-weight: 500;
   font-size: 20px;
+  font-family: 'Comfortaa';
   line-height: 30px;
-  letter-spacing: 0.25px; }
+  letter-spacing: 0.25px;
+  margin-left: 10px; }
 
 .honeymoon__info-desc {
   font-size: 16px;
@@ -231,15 +266,16 @@ button {
 
 .rooms {
   margin: 0 auto;
-  padding: 67px 120px 127px;
+  padding: 60px 120px 127px;
   background-color: #F5F5F5; }
 
 .rooms__title {
   text-align: start;
   margin-top: 0;
-  margin-bottom: 64px;
+  margin-bottom: 70px;
   font-weight: 800;
   font-size: 32px;
+  font-family: 'Comfortaa';
   line-height: 48px;
   letter-spacing: 0.25px; }
 
@@ -253,7 +289,8 @@ button {
   display: flex;
   position: relative;
   justify-content: flex-end;
-  align-items: flex-end; }
+  align-items: flex-end;
+  margin-bottom: 22px; }
 
 .rooms__img {
   height: 538px;
@@ -268,20 +305,23 @@ button {
   background-color: #FFFFFF;
   position: absolute; }
 
+.rooms__number-inner {
+  font-size: 18px; }
+
 .rooms__item-title {
   font-size: 24px;
+  font-family: 'Comfortaa';
   line-height: 36px;
-  margin-top: 24px;
-  margin-bottom: 12px;
+  margin: 0 auto 15px;
   text-align: start; }
 
 .rooms__descr {
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.15px;
+  line-height: 27px;
+  letter-spacing: 0.3px;
   height: 76px;
   width: 384px;
-  margin-bottom: 56px;
+  margin: 0 auto 56px;
   color: rgba(0, 0, 0, 0.6); }
 
 .rooms__btn {
@@ -295,7 +335,7 @@ button {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  letter-spacing: 1.25px;
+  letter-spacing: 1.1px;
   text-transform: uppercase;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
@@ -318,12 +358,13 @@ button {
 
 .portfolio {
   margin: 0 auto;
-  padding: 112px 120px 120px; }
+  padding: 104px 120px 120px; }
 
 .portfolio__title {
-  margin: 0 auto 128px;
+  margin: 0 auto 136px;
   font-weight: 800;
   font-size: 46px;
+  font-family: 'Comfortaa';
   line-height: 69px;
   text-align: center; }
 
@@ -344,7 +385,6 @@ button {
 .events {
   margin: 0 auto;
   padding: 160px 120px;
-  /* position: relative; */
   background-color: #F5F5F5; }
 
 .events__inner {
@@ -360,10 +400,11 @@ button {
 
 .events__number {
   position: absolute;
-  top: 0;
+  top: -27px;
   left: 894px; }
 
 .events__number-inner {
+  font-family: 'Roboto';
   margin-left: 24px;
   font-size: 23px;
   line-height: 35px; }
@@ -373,12 +414,12 @@ button {
   position: absolute;
   left: 510px;
   bottom: 0;
-  padding: 70px 102px 90px;
+  padding: 65px 102px 90px;
   width: 690px;
   height: 320px; }
 
 .events__title {
-  margin: 0 auto 34px 0;
+  margin: 0 auto 38px 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -428,11 +469,12 @@ button {
   height: 640px; }
 
 .reviews__title {
-  margin: 0 auto 72px;
-  padding-top: 107px;
+  margin: 0 auto 80px;
+  padding-top: 97px;
   width: 588px;
   font-weight: 800;
   font-size: 46px;
+  font-family: 'Comfortaa';
   line-height: 69px;
   text-align: center; }
 
@@ -440,7 +482,8 @@ button {
   display: flex;
   max-width: 1220px;
   max-height: 592px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-left: 10px; }
 
 .review__item {
   width: 384px;
@@ -459,71 +502,30 @@ button {
   font-size: 24px;
   line-height: 36px;
   text-align: center;
-  margin: 0 0 17px; }
+  margin: 0 0 15px;
+  letter-spacing: -0.5px; }
 
 .review__decor {
   width: 200px;
   height: 0px;
   background-color: #3B00DD;
-  border: 5px solid #3B00DD;
-  margin: 0 auto 35px; }
+  border: 3px solid #3B00DD;
+  margin: 0 auto 38px; }
 
 .review__desc {
   margin: 0 auto;
   text-align: center;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.6); }
-
-* {
-  box-sizing: border-box; }
-
-body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.87);
-  display: block;
-  margin: 0 auto;
-  max-width: 1440px;
-  align-self: center; }
-
-ul {
-  list-style-type: none; }
-
-button {
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer; }
-
-.btn {
-  height: 48px;
-  width: 180px;
-  background: #3B00DD;
-  border: none;
-  border-radius: 3px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 1.25px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.87);
-  position: relative; }
-
-.btn::after {
-  content: "";
-  position: absolute;
-  height: 24px;
-  width: 24px;
-  bottom: 14px;
-  background-image: url("../images/SVG/arrow.svg"); }
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.3px; }
 
 .costs {
   margin: 0 auto;
   height: 812px;
   background-image: url("../images/JPG/images_optimize/service_costs.jpg");
   position: relative;
-  z-index: -2; }
+  opacity: 0.9; }
 
 .costs__shade {
   position: absolute;
@@ -533,24 +535,25 @@ button {
   z-index: -1; }
 
 .costs__info {
-  padding-top: 122px;
+  padding-top: 112px;
   padding-left: 120px; }
 
 .costs__info-title {
-  margin-bottom: 19px;
+  margin: 0 auto 30px;
   font-weight: 800;
   font-size: 56px;
+  font-family: 'Comfortaa';
   line-height: 84px;
   letter-spacing: -0.5px;
   color: #FFFFFF; }
 
 .costs__info-desc {
-  margin-bottom: 44px;
+  margin: 0 auto 36px 0;
   width: 415px;
   font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.25px;
+  line-height: 33px;
+  letter-spacing: 0.55px;
   color: #FFFFFF; }
 
 .costs__service {
@@ -572,7 +575,7 @@ button {
 .cost__service-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 180px);
-  grid-template-rows: repeat 2, 100px;
+  grid-template-rows: repeat(2, 100px);
   column-gap: 24px;
   row-gap: 40px; }
 
@@ -580,7 +583,8 @@ button {
   margin: 0; }
 
 .cost__box-title {
-  margin: 0 auto 14px 0;
+  margin: -3px auto 17px 0;
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -614,9 +618,10 @@ button {
   margin: 0 auto; }
 
 .contacts__title {
-  margin: 107px auto 68px;
+  margin: 98px auto 68px;
   font-weight: 800;
   font-size: 46px;
+  font-family: 'Comfortaa';
   line-height: 69px;
   text-align: center; }
 
@@ -624,16 +629,16 @@ button {
   width: 1200px;
   height: 492px;
   display: flex;
-  margin: 0 auto 145px;
+  margin: 0 auto 130px;
   justify-content: space-between; }
 
 .contact__form-wrapper {
   width: 50%;
   height: 100%;
-  padding: 48px 98px 40px 102px; }
+  padding: 54px 98px 40px 102px; }
 
 .contacts__map {
-  margin-left: 24px;
+  margin: 8px 30px;
   width: 50%;
   height: 100%;
   box-shadow: 0 10px 25px #8a8a8a; }
@@ -644,21 +649,22 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  letter-spacing: 0.25px; }
+  letter-spacing: 0.5px; }
 
 .contacts__form-img {
   width: 20px;
   height: 16px; }
 
 .contacts__mailto {
+  margin-left: 7px;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.25px;
+  letter-spacing: -0.6px;
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none; }
 
 .contacts__form {
-  margin: 41px 0 0; }
+  margin: 54px 0 0; }
 
 .contacts__input-wrapper {
   height: 84px;
@@ -670,7 +676,7 @@ button {
   border: 4px solid #FFFFFF;
   width: fit-content;
   margin-top: -68px;
-  margin-left: 16px;
+  margin-left: 12px;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.4px;
@@ -688,7 +694,7 @@ button {
 
 .contacts__form-submit {
   display: block;
-  margin-top: 33px;
+  margin-top: 23px;
   margin-left: auto;
   height: 48px;
   width: 180px;
@@ -709,7 +715,7 @@ button {
 
 .contacts__map-content {
   display: flex;
-  margin: 41px 56px 37px 25px;
+  margin: 30px 47px 37px 25px;
   width: 221px;
   height: 83px; }
 
@@ -720,21 +726,23 @@ button {
 .contacts__desc {
   width: 200px;
   height: fit-content;
-  margin-left: 24px; }
+  margin-left: 27px; }
 
 .contacts__map-title {
   display: inline-block;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0;
+  margin-top: 1px;
   margin-bottom: 5px; }
 
 .contacts__map-desc {
+  padding: 4px 0px 0 0;
   font-size: 16px;
-  line-height: 24px;
   font-style: normal;
   font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0.5px;
   color: rgba(0, 0, 0, 0.6); }
 
 .footer {
@@ -742,7 +750,7 @@ button {
   background: #F5F5F5; }
 
 .footer__inner {
-  padding: 100px 120px 97px; }
+  padding: 100px 120px 56px; }
 
 .footer__top {
   display: flex; }
@@ -750,17 +758,18 @@ button {
 .footer__first-column {
   height: 242px;
   width: 384px;
-  margin-right: 330px; }
+  margin: 19px 330px 0 0; }
 
 .footer__logo {
-  margin-bottom: 36px;
-  height: 24px; }
+  margin-bottom: 30px;
+  height: 26px; }
 
 .footer__first-desc {
+  margin: 0 auto 0 0;
   font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.25px;
+  line-height: 33px;
+  letter-spacing: 0.65px;
   color: rgba(0, 0, 0, 0.6); }
 
 .footer__next-column {
@@ -772,7 +781,7 @@ button {
 .footer__next-column:last-child .footer__items {
   color: rgba(0, 0, 0, 0.6); }
 
-.footer__ext-title {
+.footer__next-title {
   margin: 0 auto 32px 0;
   font-weight: bold;
   font-size: 16px;
@@ -798,7 +807,7 @@ button {
   display: flex; }
 
 .footer__copyright {
-  margin: 23px 268px auto 0;
+  margin: 15px 321px auto 0;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.15px;
@@ -808,14 +817,14 @@ button {
   display: flex; }
 
 .footer__subscr {
-  margin-right: 18px;
-  font-weight: 500;
+  margin: 14px 24px 0 0;
+  font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  letter-spacing: 0.25px; }
+  letter-spacing: -0.4px; }
 
 .footer__form {
-  margin-top: 6px; }
+  margin-top: 3px; }
 
 .footer__label {
   display: block;
@@ -859,7 +868,7 @@ button {
   [class*="svg-"] svg {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 7px;
     width: 100%;
     height: 100%; }
 

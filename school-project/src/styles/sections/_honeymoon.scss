@@ -1,28 +1,31 @@
 .honeymoon {
-    padding: 120px 98px 120px 121px;
+    padding: 103px 100px 120px 118px;
 }
 
 .honeymoon__title-wrapper {
+    margin: 0 27px 0 0;
     display: flex;
     flex-direction: column;
 }
 
 .honeymoon__title {
-    margin: 0 auto 5px;
+    margin: 0 auto;
     font-weight: 800;
     font-size: 20px;
-    line-height: 30px;
+    font-family: 'Comfortaa';
+    line-height: 39px;
     text-align: center;
     letter-spacing: 0.25px;
     color: #03DAC4;
 }
 
 .honeymoon__subtitle {
-    margin: 0 auto 41px;
+    margin: 6px auto 62px;
     width: 587px;
     font-weight: 800;
     font-size: 32px;
-    line-height: 48px;
+    font-family: 'Comfortaa';
+    line-height: 36px;
     text-align: center;
 }
 
@@ -35,9 +38,9 @@
 .honeymoon__video-desc {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 67px 0 63px;
-    column-gap: 24px;
-    row-gap: 80px;
+    padding: 66px 0 45px;
+    column-gap: 1px;
+    row-gap: 58px;
 }
 
 .honeymoon__video-inner {
@@ -54,8 +57,10 @@
     display: inline;
     font-weight: 500;
     font-size: 20px;
+    font-family: 'Comfortaa';
     line-height: 30px;
     letter-spacing: 0.25px;
+    margin-left: 10px;
 }
 
 .honeymoon__info-desc {

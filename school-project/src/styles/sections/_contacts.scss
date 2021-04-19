@@ -3,9 +3,10 @@
 }
 
 .contacts__title {
-    margin: 107px auto 68px;
+    margin: 98px auto 68px;
     font-weight: 800;
     font-size: 46px;
+    font-family: 'Comfortaa';
     line-height: 69px;
     text-align: center;
 }
@@ -14,18 +15,18 @@
     width: 1200px;
     height: 492px;
     display: flex;
-    margin: 0 auto 145px;
+    margin: 0 auto 130px;
     justify-content: space-between;
 }
 
 .contact__form-wrapper {
     width: 50%;
     height: 100%;
-    padding: 48px 98px 40px 102px;
+    padding: 54px 98px 40px 102px;
 }
 
 .contacts__map {
-    margin-left: 24px;
+    margin: 8px 30px;
     width: 50%;
     height: 100%;
     box-shadow: 0 10px 25px rgb(138, 138, 138);
@@ -37,7 +38,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.5px;
 }
 
 .contacts__form-img {
@@ -46,15 +47,16 @@
 }
 
 .contacts__mailto {
+    margin-left: 7px;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.25px;
+    letter-spacing: -0.6px;
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
 }
 
 .contacts__form {
-    margin: 41px 0 0;
+    margin: 54px 0 0;
 }
 
 .contacts__input-wrapper {
@@ -68,7 +70,7 @@
     border: 4px solid #FFFFFF;
     width: fit-content;
     margin-top: -68px;
-    margin-left: 16px;
+    margin-left: 12px;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.4px;
@@ -88,7 +90,7 @@
 
 .contacts__form-submit {
     display: block;
-    margin-top: 33px;
+    margin-top: 23px;
     margin-left: auto;
     height: 48px;
     width: 180px;
@@ -111,7 +113,7 @@
 
 .contacts__map-content {
     display: flex;
-    margin: 41px 56px 37px 25px;
+    margin: 30px 47px 37px 25px;
     width: 221px;
     height: 83px;
 }
@@ -124,7 +126,7 @@
 .contacts__desc {
     width: 200px;
     height: fit-content;
-    margin-left: 24px;
+    margin-left: 27px;
 }
 
 .contacts__map-title {
@@ -132,14 +134,16 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 0;
+    margin-top: 1px;
     margin-bottom: 5px;
 }
 
 .contacts__map-desc {
+    padding: 4px 0px 0 0;
     font-size: 16px;
-    line-height: 24px;
     font-style: normal;
     font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.6);
 }

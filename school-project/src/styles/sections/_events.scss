@@ -1,7 +1,6 @@
 .events {
     margin: 0 auto;
     padding: 160px 120px;
-    /* position: relative; */
     background-color: #F5F5F5;
 }
 
@@ -20,11 +19,12 @@
 
 .events__number {
     position: absolute;
-    top: 0;
+    top: -27px;
     left: 894px;
 }
 
 .events__number-inner {
+    font-family: 'Roboto';
     margin-left: 24px;
     font-size: 23px;
     line-height: 35px;
@@ -35,13 +35,13 @@
     position: absolute;
     left: 510px;
     bottom: 0;
-    padding: 70px 102px 90px;
+    padding: 65px 102px 90px;
     width: 690px;
     height: 320px;
 }
 
 .events__title {
-    margin: 0 auto 34px 0;
+    margin: 0 auto 38px 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
