@@ -42,6 +42,14 @@ button {
   bottom: 14px;
   background-image: url("../images/SVG/arrow.svg"); }
 
+@media (max-width: 1024px) {
+  body {
+    max-width: 1024px; } }
+
+@media (max-width: 320px) {
+  body {
+    max-width: 320px; } }
+
 .menu {
   margin: 0 auto;
   padding: 0;
@@ -54,6 +62,10 @@ button {
   align-items: center;
   height: 120px;
   padding-top: 10px; }
+
+.menu__wrapper {
+  display: flex;
+  justify-content: space-between; }
 
 .menu__logo {
   margin: 0 0 0 48px; }
@@ -83,7 +95,21 @@ button {
 
 .menu__socials {
   margin-right: 120px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  display: block; }
+
+.menu__hidden-wrapper {
+  display: none;
+  margin: 0 25px 0 0; }
+
+.menu__hidden {
+  display: block;
+  border: 1px solid #03DAC4;
+  width: 26px;
+  height: 0; }
+
+.menu__hidden:not(:last-child) {
+  margin: 0 0 6px 0; }
 
 .socials__link {
   text-decoration: none; }
@@ -94,12 +120,33 @@ button {
 .socials__link--grey {
   opacity: 0.4; }
 
+@media (max-width: 1024px) {
+  .menu__socials {
+    margin-right: 66px; }
+  .menu__logo {
+    margin: 0 0 0 34px; } }
+
+@media (max-width: 920px) {
+  .menu__socials {
+    display: none; }
+  .menu__hidden-wrapper {
+    display: block; } }
+
+@media (max-width: 720px) {
+  .menu__list {
+    display: none; } }
+
+@media (max-width: 320px) {
+  .menu__inner {
+    height: 80px; } }
+
 .header {
   padding-left: 120px;
   display: flex; }
 
 .header__container {
-  padding: 193px 0 100px; }
+  padding: 193px 0 100px;
+  width: 58%; }
 
 .header__title {
   margin: 0;
@@ -114,7 +161,7 @@ button {
   margin: 20px auto 105px 0;
   font-size: 25px;
   line-height: 29px;
-  width: 490px; }
+  max-width: 490px; }
 
 .header__btn {
   padding-right: 37px;
@@ -141,9 +188,63 @@ button {
   background-image: url("../images/SVG/arrow.svg"); }
 
 .header__img {
-  display: block;
   margin-left: 37px;
-  z-index: -2; }
+  width: 529px;
+  height: 800px;
+  background-image: url("../images/JPG/images_optimize/telescope.jpg"); }
+
+@media (max-width: 1100px) {
+  .header__img {
+    width: 472px;
+    background-image: url("../images/JPG/1024/telescope1024.jpg"); }
+  .header {
+    padding-left: 70px; }
+  .header__container {
+    width: 55%; } }
+
+@media (max-width: 1024px) {
+  .header {
+    padding-left: 24px; }
+  .header__container {
+    width: 51%; } }
+
+@media (max-width: 832px) {
+  .header__title {
+    font-size: 30px;
+    line-height: 35px; }
+  .header__text {
+    font-size: 20px;
+    line-height: 24px; } }
+
+@media (max-width: 650px) {
+  .header__container {
+    background-image: url("../images/JPG/1024/telescope1024.jpg");
+    width: 100%;
+    background-repeat: no-repeat; }
+  .header__img {
+    display: none; }
+  .header__title, .header__text {
+    color: #fff;
+    max-width: 472px;
+    padding: 0 24px; }
+  .header__btn {
+    margin-left: 24px; } }
+
+@media (max-width: 500px) {
+  .header {
+    padding-left: 0; } }
+
+@media (max-width: 320px) {
+  .header__container {
+    padding-top: 100px;
+    background-image: url("../images/JPG/320/telescope320.jpg"); }
+  .header__title {
+    font-size: 20px;
+    line-height: 22px; }
+  .header__text {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto 24px 0; } }
 
 .smart-studio {
   margin: 0 auto;

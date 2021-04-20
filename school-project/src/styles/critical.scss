@@ -47,3 +47,15 @@ button {
     bottom: 14px;
     background-image: url("../images/SVG/arrow.svg");
 }
+
+@media (max-width: 1024px) {
+    body {
+        max-width: 1024px;
+    }
+}
+
+@media  (max-width: 320px) {
+    body {
+        max-width: 320px;
+    }
+}
